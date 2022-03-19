@@ -1,0 +1,57 @@
+
+#med{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#outer {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#outer h4{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 2pc;
+  color: white;
+}
+
+::placeholder{   
+    color: #BABA
+}
+
+#outer input {
+    width: 30pc;
+    background: transparent;
+    outline: none;
+    border:none;
+    color: #E8E8E8;
+    border-bottom: 1px solid #36454F;
+    height: 3pc;
+    margin-top: 2pc;
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+#outer button {
+    width: 15pc;
+    height:3pc;
+    margin-top: 5pc;
+    outline: none;
+    border: 2px solid #13445F ;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
